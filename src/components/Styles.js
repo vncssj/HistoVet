@@ -1,4 +1,7 @@
-import { StyleSheet } from 'react-native';
+import { Dimensions, StyleSheet } from 'react-native';
+
+var width = Dimensions.get('window').width; //full width
+var height = Dimensions.get('window').height; //full height
 
 export default StyleSheet.create({
     inputBorderLogin: {
@@ -51,5 +54,19 @@ export default StyleSheet.create({
         backgroundColor: "#FFF",
         borderRadius: 5,
         textAlign: 'center',
+    },
+    addButton: {
+        position: 'absolute',
+        display: 'flex',
+        backgroundColor: '#FFF',
+        width: 60,
+        height: 60,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 3,
+        borderColor: "#9198E5",
+        borderRadius: 50,
+        bottom: 10,
+        right: 10,
     },
 });

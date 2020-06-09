@@ -24,15 +24,18 @@ function TabVet() {
     return (
         <Tab.Navigator
             tabBarOptions={{
-                showIcon: false, tabStyle: {
-                    marginBottom: 0,
+                showIcon: false,
+                tabStyle: {
                     alignItems: 'center',
                     justifyContent: 'center',
+                    borderRadius: 5,
                 },
                 labelStyle: {
                     fontSize: 16,
-                    color: "#333"
-                }
+                },
+                activeBackgroundColor: "#9198E5",
+                activeTintColor: '#FFF',
+                inactiveTintColor: "#333",
             }}
         >
             <Tab.Screen name="Ocorrencias" component={UrgenciasVetScreen} />

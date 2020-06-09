@@ -1,10 +1,10 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 export default StyleSheet.create({
     container: {
         flex: 1,
         padding: 10,
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
     headerLogin: {
         flex: 1,
@@ -83,19 +83,10 @@ export default StyleSheet.create({
     },
 
     topoOcorrencias: {
-        padding: 5,
-        display: 'flex',
-        alignSelf: 'flex-end',
-    },
-    addOcorrencia: {
-        backgroundColor: '#FFF',
-        padding: 7,
-        borderRadius: 5,
-        display: 'flex',
-        flexDirection: 'row',
-    },
-    textAddOcorrencia: {
-        fontSize: 16
+        backgroundColor: "#9198E5",
+        width: Dimensions.get('window').width,
+        alignItems: 'center',
+        justifyContent: 'center'
     },
 
     pets: {

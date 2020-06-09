@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import { LoginInput } from '../components/LoginInput';
-import ButtonInput from '../components/ButtonInput';
+import { ButtonInput } from '../components/ButtonInput';
 import styles from './Styles';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
